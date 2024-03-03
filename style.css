@@ -1,0 +1,192 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;}
+body{
+    height: 100vh;
+    background-color: #4d8bc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    background-color: #ebf5ff;
+    height: 520px;
+    width: 400px;
+    padding: 10px 20px 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display1{
+    height: 20px;
+    width: 100%;
+    background-color: #cbe5fe;
+     margin-top: 30px;
+     outline: none;
+     border: none;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     padding: 20px;
+     color: #5b8ab9;
+     font-weight: 600;
+     font-size: 16px;
+     pointer-events: none;
+}
+.display{
+    height: 50px;
+    width: 100%;
+    background-color: #cbe5fe;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 40px;
+    text-align: right;
+    /* border: #cbe5fe 1px solid ; */
+    padding: 20px;
+    color: #19385d;
+    font-weight: 700; 
+    border: none;
+    pointer-events: none;
+    
+    
+}
+.buttons{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.number-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cbe5fe;
+    color: #304b6e;
+    font-weight: bold;
+    font-size: 23px;
+    height: 60px;
+    cursor: pointer;
+    transition: .2s;
+}
+.number-btn:active{
+    transform: scale(0.99);
+    transition: .2s;
+    /* background-color:#ebf5ff; */
+    box-shadow: 0px 3px 5px 0px #00000040 ;    
+}
+.operator{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a3cffb;
+    color: #5b8ab9;
+    font-weight: 700;
+    font-size: 23px;
+    height: 60px;
+    cursor: pointer;
+    transition: .2s;
+ 
+}
+.operator:active{
+    transform: scale(0.99);
+    transition: .2s;
+   /* background-color:#ebf5ff; */
+   box-shadow: 0px 3px 5px 0px #00000040 ;   
+    
+}
+.function-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a3cffb;
+    color: #649ad0;
+    font-weight: 700;
+    font-size: 15px;
+    height: 60px;
+    cursor: pointer;
+    transition: .2s;
+}
+.function-btn:active{
+    transform: scale(0.99);
+    transition: .2s;
+    /* background-color:#ebf5ff; */
+    box-shadow: 0px 3px 5px 0px #00000040 ;   
+    
+}
+
+.last-section{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+}
+.last-operator{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cbe5fe;
+    color: #304b6e;
+    font-weight: 700;
+    font-size: 23px;
+    height: 60px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.last-operator:active{
+    transform: scale(0.99);
+    transition: .2s;
+     /* background-color:#ebf5ff; */
+     box-shadow: 0px 3px 5px 0px #00000040 ;   
+}
+
+.last-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cbe5fe;
+    color: #304b6e;
+    font-weight: bold;
+    font-size: 23px;
+    height: 60px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.last-btn:active{
+    transform: scale(0.99);
+  transition: .2s;
+  /* background-color:#ebf5ff; */
+  box-shadow: 0px 3px 5px 0px #00000040 ;   
+    
+}
+.enter-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #4d8bc8;
+    color: #cceff4;
+    width: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    
+}
+.enter-btn:active{
+    transform: scale(0.99);
+     transition: .2s;
+     /* background-color:#ebf5ff; */
+     box-shadow: 0px 3px 5px 0px #00000040 ;   
+    
+}
